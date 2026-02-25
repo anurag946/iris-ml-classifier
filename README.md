@@ -1,6 +1,6 @@
-# 🌸 Iris Flower Classification using Random Forest
+# Iris Flower Classification using Random Forest
 
-## 📌 Project Overview
+## Project Overview
 This project builds a Machine Learning model to classify Iris flowers into three species:
 - Iris-setosa  
 - Iris-versicolor  
@@ -10,7 +10,7 @@ The model is trained using the RandomForestClassifier from scikit-learn.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -19,7 +19,7 @@ The model is trained using the RandomForestClassifier from scikit-learn.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 iris-ml-classifier/
 │
 ├── data/
@@ -33,7 +33,7 @@ iris-ml-classifier/
 
 ---
 
-## 🔍 Workflow
+##  Workflow
 1. Loaded training and testing datasets.
 2. Separated features (X) and target variable (y).
 3. Trained a Random Forest model.
@@ -42,7 +42,7 @@ iris-ml-classifier/
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 - Difference between Pandas and NumPy in ML pipelines.
 - How scikit-learn handles categorical labels internally.
 - Importance of execution order in Jupyter Notebook.
@@ -50,7 +50,7 @@ iris-ml-classifier/
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Add model evaluation metrics (Accuracy, Confusion Matrix).
 - Perform hyperparameter tuning.
 - Compare with other algorithms (Logistic Regression, SVM).
