@@ -1,16 +1,22 @@
-# Iris Flower Classification using Random Forest
+# 🌸 Iris Flower Classification using Random Forest
 
-## Project Overview
-This project builds a Machine Learning model to classify Iris flowers into three species:
-- Iris-setosa  
-- Iris-versicolor  
-- Iris-virginica  
+## 📌 Project Overview
+This project implements a Machine Learning classification model to predict Iris flower species using the Random Forest algorithm.
 
-The model is trained using the RandomForestClassifier from scikit-learn.
+The model classifies flowers into three categories:
+- Iris-setosa
+- Iris-versicolor
+- Iris-virginica
+
+The prediction is based on four numerical features:
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -19,43 +25,42 @@ The model is trained using the RandomForestClassifier from scikit-learn.
 
 ---
 
-##  Project Structure
-iris-ml-classifier/
-│
-├── data/
-│   ├── train.csv
-│   └── test.csv
-│
-├── notebook/
-│   └── iris_model.ipynb
-│
-└── README.md
-
----
-
-##  Workflow
-1. Loaded training and testing datasets.
+## 🔍 Machine Learning Workflow
+1. Loaded training and test datasets.
 2. Separated features (X) and target variable (y).
-3. Trained a Random Forest model.
-4. Predicted flower species on test data.
-5. Explored how Pandas DataFrames and NumPy arrays work in ML models.
+3. Trained a RandomForestClassifier model.
+4. Predicted flower species on unseen test data.
+5. Evaluated model performance using accuracy calculation.
 
 ---
 
-##  Key Learnings
-- Difference between Pandas and NumPy in ML pipelines.
+## 📊 Model Performance
+The Random Forest model achieved **97.06% accuracy** on the test dataset.
+
+Accuracy was calculated both:
+- Manually using a loop comparison.
+- Using `sklearn.metrics.accuracy_score`.
+
+This indicates strong classification performance across the three Iris species.
+
+---
+
+## 🧠 Key Learnings
+- Understanding supervised learning workflow.
+- Train-test dataset separation.
+- Difference between Pandas DataFrame and NumPy arrays.
 - How scikit-learn handles categorical labels internally.
-- Importance of execution order in Jupyter Notebook.
-- Basic ML workflow: train → predict → evaluate.
+- Importance of proper execution order in Jupyter Notebook.
 
 ---
 
-##  Future Improvements
-- Add model evaluation metrics (Accuracy, Confusion Matrix).
+## 🚀 Future Improvements
+- Add confusion matrix visualization.
 - Perform hyperparameter tuning.
 - Compare with other algorithms (Logistic Regression, SVM).
+- Implement cross-validation.
 
 ---
 
 ## 📎 About
-This project was created as part of my Machine Learning practice to strengthen my understanding of model training and prediction workflow.
+This project was developed as part of strengthening foundational Machine Learning skills and understanding model evaluation techniques.
