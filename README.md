@@ -38,6 +38,7 @@ The prediction is based on four numerical features:
 The Random Forest model achieved **97.05% accuracy** on the test dataset.
 The DecisionTreeClassifier achieved **97.05% accuracy** on the test dataset.
 The GaussianNB achieved **97.05% accuracy** on the test dataset.
+The HistGradientBoostingClassifier achieved **97.05% accuracy** on the test dataset
 
 Accuracy was calculated both:
 - Manually using a loop comparison.
